@@ -46,6 +46,7 @@
 	</dependencies>
 	<modules>
 		<module>core</module>
-    <module>servlet-initializer</module>
+   	 	<module>servlet-initializer</module>
+    <module>test</module>
   </modules>
 </project>

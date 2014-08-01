@@ -12,7 +12,7 @@ public class RestboxServlet extends HttpServlet {
 	
 	@Override
 	public void init(ServletConfig config) throws ServletException {
-		super.init(config);
+		
 	}
 	
 	@Override
@@ -23,7 +23,7 @@ public class RestboxServlet extends HttpServlet {
 	@Override
 	protected void service(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-		// TODO Auto-generated method stub
+	
 		super.service(request, response);
 	}
 }
