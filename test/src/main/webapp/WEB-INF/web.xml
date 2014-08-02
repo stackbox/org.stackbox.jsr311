@@ -9,15 +9,15 @@
 		<servlet-name>application1</servlet-name>
 		<servlet-class>org.stackbox.jsr311.server.servlet.RestboxServlet</servlet-class>
 		<init-param>
-			<param-name>javax.ws.rs.Application</param-name>
-			<param-value>restbox.test..MyApplication</param-value>
+			<param-name>packageToScan</param-name>
+			<param-value>restbox.test.resources1</param-value>
 		</init-param>
 		<load-on-startup>1</load-on-startup>
 	</servlet>
 	
 	<servlet-mapping>
 		<servlet-name>application1</servlet-name>
-		<url-pattern>/resources/*</url-pattern>
+		<url-pattern>/res/*</url-pattern>
 	</servlet-mapping>
 	
 	
